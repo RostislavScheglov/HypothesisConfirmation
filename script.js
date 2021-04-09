@@ -15,7 +15,6 @@ while(person_1 > 0 && person_2 > 0){
     if(coinSide===1){
       person_1 = person_1 - 1 // You can change amount of money they lose/win
       person_2 = person_2 + 1
-   
     }else if (coinSide===2){
       person_2 = person_2 - 1
       person_1 = person_1 + 1
@@ -95,6 +94,5 @@ if(person_1 > 0){
 }else if (person_4>0){
     document.querySelector('.winner-4').innerText= person_4+"$"
 }
-
 
 document.querySelector('.btn-reload').addEventListener("click", function(){window.location.reload()});
