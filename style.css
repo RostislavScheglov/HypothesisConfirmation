@@ -1,0 +1,44 @@
+body{
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-container{
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 5%;
+}
+
+.bot-explain{
+    margin-top: 1%;
+}
+.question{
+    font-weight: 700;
+    margin-top: 2%;
+}
+
+.list-of-persons-before{
+    width: fit-content;
+}
+.list-of-persons-after{
+    width: fit-content;
+}
+.btn-reload{
+    margin-top: 1.5%;
+    margin-left: 25%;
+    width: 92px;
+    height: 27px;
+    font-weight: 700;
+}
+.list-wrapper{
+    width: 33%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 24%;
+}
+.money{
+    font-weight: 700;
+}
